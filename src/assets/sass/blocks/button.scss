@@ -1,0 +1,7 @@
+.btn {
+    @include button;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: $radius;
+}

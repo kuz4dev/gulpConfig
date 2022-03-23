@@ -30,14 +30,14 @@ var path = {
         html: "src/*.html",
         js: "src/assets/js/*.js",
         css: "src/assets/sass/style.scss",
-        images: "src/assets/img/**/*.{jpg, png, svg, gif, ico}"
+        images: "src/assets/img/**/*.{jpg,jpeg,png,svg,gif,ico}"
     },
 
     watch: {
         html: "src/**/*.html",
         js: "src/assets/js/**/*.js",
         css: "src/assets/sass/**/*.scss",
-        images: "src/assets/img/**/*.{jpg, png, svg, gif, ico}"
+        images: "src/assets/img/**/*.{jpg,jpeg,png,svg,gif,ico}"
     },
 
     clean: "./dist"
